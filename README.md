@@ -1,4 +1,4 @@
-# cinema
+# Roles
 
 ## Project setup
 ```
@@ -20,5 +20,24 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### run backend dev
+```
+npm run dev
+```
+
+### run backend prod
+```
+npm run prod
+```
+
+### migrate db
+```
+npx sequelize-cli db:migrate
+
+```
+
+### upload test users to db
+```
+npx sequelize-cli db:seed:all
+
+```
